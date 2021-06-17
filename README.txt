@@ -9,5 +9,5 @@ There are several folders, including information on:
  - Queues
  - Stacks
 
-All folders should have some python based examples and accompanying, language transcendent notes 
+All folders should have some python based examples + accompanying language transcendent notes 
 about their purposes and applications. 
