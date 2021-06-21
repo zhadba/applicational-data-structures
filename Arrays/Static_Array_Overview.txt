@@ -1,0 +1,29 @@
+STATIC ARRAY
+
+    DEFINITION: A *fixed* length container with n elements, all of which are indexable.
+
+    APPLICATIONS: 
+
+    - Object storage
+    - Buffering (for reading large files)
+    - Indexing for lookup tables/inverse lookup tables
+    - Returning several items from a function
+    - Solving Dynamic Programming problems
+
+    COMPLEXITY:
+
+    ----------------
+    Accessing | O(1)
+    Searching | O(n)
+    Insertion | N/A
+    Appending | N/A
+    Deletion  | N/A
+    ----------------
+
+    VISUAL EXAMPLE (where brackets = cell):
+
+    A = [044][012][-05][017][006][000][003][009][100]
+    i = [000][001][002][003][004][005][006][007][008]
+
+    *array indexing is 0 based, meaning that the first element is accesed by index 0.
+        

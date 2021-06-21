@@ -1,0 +1,28 @@
+DYNAMIC ARRAY
+
+    DEFINITION: Much like a static array, but can be scaled in size (larger or smaller).
+    
+    APPLICATIONS:
+
+    - Create a static array with an initial capacity.
+    - Add elements to an underlying static array, keeping track of the # of elements.
+    - If static array exceeds capacity, make a new one with the same info + double the space
+      (generally filled with placeholders) to add the new element. 
+
+    COMPLEXITY:
+
+    ----------------
+    Accessing | O(1)
+    Searching | O(n)
+    Insertion | O(n)
+    Appending | O(1)
+    Deletion  | O(n)
+    ----------------
+
+VISUAL EXAMPLE (where brackets = cell):
+
+                A = [034][004]
+    A.add(-7)   A = [034][004][-07]
+    A.remove(4) A = [034][-07]
+
+    *same indexing rules as static arrays apply here.     
