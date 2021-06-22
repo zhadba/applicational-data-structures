@@ -27,9 +27,14 @@ class Array: #all methods use print instead of return, just to increase simplici
 
     def get_length(self):
         n = len(self.array)
-        print(f'Length: {n}')
+        return n
+
+    def print_length(self):
+        self.n = self.get_length()
+        print(f'Length: {self.n}')
 
     def get_index(self, index):
+        self.n = self.get_length()
         if not 0 <= index < self.n:
             print('Error: invalid index')
         else:
@@ -55,7 +60,10 @@ class Array: #all methods use print instead of return, just to increase simplici
             print('Error: invalid index')
 
     def remove_item(self, index):
+        self.n = self.get_length()
         if self.n == 0:
             print('Error: cannot remove item from empty array')
         else:
             del self.array[index]
+
+Array().get_index(0)
