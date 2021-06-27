@@ -6,7 +6,7 @@ DYNAMIC ARRAY
 
     - Create a static array with an initial capacity.
     - Add elements to an underlying static array, keeping track of the # of elements.
-    - If static array exceeds capacity, make a new one with the same info + double the space
+    - If static array exceeds capacity, make a new one with the same info + double the space.
       (generally filled with placeholders) to add the new element. 
 
     COMPLEXITY:

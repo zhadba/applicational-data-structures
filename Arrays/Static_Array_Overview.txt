@@ -4,11 +4,11 @@ STATIC ARRAY
 
     APPLICATIONS: 
 
-    - Object storage
-    - Buffering (for reading large files)
-    - Indexing for lookup tables/inverse lookup tables
-    - Returning several items from a function
-    - Solving Dynamic Programming problems
+    - Object storage.
+    - Buffering (for reading large files).
+    - Indexing for lookup tables/inverse lookup tables.
+    - Returning several items from a function.
+    - Solving Dynamic Programming problems.
 
     COMPLEXITY:
 
