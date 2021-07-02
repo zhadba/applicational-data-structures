@@ -65,5 +65,3 @@ class Array: #all methods use print instead of return, just to increase simplici
             print('Error: cannot remove item from empty array')
         else:
             del self.array[index]
-
-Array().get_index(0)
